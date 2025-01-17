@@ -23,7 +23,6 @@ export default function RootLayout({
             <main className="w-full h-auto items-center justify-center">
               {children}
             </main>
-            
           </div>
           <CookieConsentBanner />
         </Providers>
