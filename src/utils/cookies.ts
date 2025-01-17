@@ -10,8 +10,12 @@ export const getCookieValue = (name: string) => {
   return cookieValue;
 };
 
-export const setCookieValue = (name: string, value: string, options?: Cookies.CookieAttributes) => {
-   Cookies.set(name, value, options);
+export const setCookieValue = (
+  name: string,
+  value: string,
+  options?: Cookies.CookieAttributes
+) => {
+  Cookies.set(name, value, options);
 };
 
 export const resetCookieValue = (name: string) => {
